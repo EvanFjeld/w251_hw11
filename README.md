@@ -21,7 +21,11 @@ Next, I tried to change the optimizer from AdamW to SGD. This trains much faster
 
 
 ### Third Change
-What was the third change you made to the model, and how did it affect the outcome?
+The final change was to go back to the AdamW optimier but add two more layers to the model. Adding layers makes the model take longer to train but we do see improves, yet interesting behavior. The model looks to make massive improvements starting at about 125 episodes but then tops out at about 250 for duration and nosedives back to near 0 by 300 episodes. It does not start recovering from this trouble until after 450 episodes and starts improving quickly. It improves to the point of being the best performing model, finishing north of 200 at almost 250. Just above the initial model. With more time, this model would improve even more.
+
+<img width="392" alt="third_change" src="https://user-images.githubusercontent.com/10189327/226800976-3d82770b-7a7d-4e80-93e7-6daa75f8d8dd.png">
+
+The model runs much more slowly and training slows down even more near the end. 
 
 ### Epsilon Value
 How is the Epsilon value used in the training? Why does it "decay"?
