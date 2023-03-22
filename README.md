@@ -7,8 +7,6 @@ The intitial training took about 250 steps before the model started to make more
 
 <img width="388" alt="initial_training" src="https://user-images.githubusercontent.com/10189327/226795417-a5ee3dd8-a73a-4ede-821b-be63de9b99b9.png">
 
-![Uploading initial training.png…]()
-
 
 What was the first change you made to the model, and how did it affect the outcome?
 
